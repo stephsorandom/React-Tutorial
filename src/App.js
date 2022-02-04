@@ -26,6 +26,7 @@ class App extends React.Component {
        
       return (
         <div className='container'>
+          
            <Table
                 characterData={characters}
                 removeCharacter={this.removeCharacter}
